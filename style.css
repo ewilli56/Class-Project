@@ -1,0 +1,51 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #17202A;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #C0392B; /*text color when hovered over*/
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #C0392B;
+  color: black;
+}
+
+/*----------------Gallery Style------------*/
+div.gallery {
+  border: 10px solid #17202A;
+  display: inline-block; /*centers all images together instead of individually*/
+  width: 180px;
+  margin-top:10px; /*to have the space above the image*/
+  margin-bottom:10px; /*to have the space under the image*/
+  margin-left: 10px; /*t have space between images designed to left may have to add right side*/
+}
+
+div.gallery:hover {
+  border: 10px solid #C0392B;
+  box-shadow: 0 0 2px 1px rgba(192, 57, 43, 0.5); /*Box shadow color in rgba, last digit is the opacity of the color */
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
