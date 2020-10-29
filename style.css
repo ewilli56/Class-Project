@@ -3,7 +3,7 @@
 .topnav {
 
   background-color: #17202A;
-
+  
   overflow: hidden;
 
 }
@@ -67,7 +67,6 @@ div.gallery {
   margin-bottom:10px; /*to have the space under the image*/
 
   margin-left: 10px; /*t have space between images designed to left may have to add right side*/
-
 }
 
 
@@ -99,8 +98,69 @@ div.desc {
   text-align: center;
 
 }
-
+/* All images resize with website */
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Text background color */
+div.indextext {
+  background-color: #17202A;
+  left: 0;
+  padding: 5px;
+}
+
+/* Border for images on Simple skills site*/
+a img._blank { border: 15px solid #17202A; }
+
+/* center events text to middle of page*/
+div.events {
+    position: fixed;
+    top: 40%;
+    left:10%;
+
+}
+
+iframe.videos{  
+  margin-top: 0px; /*to have the space above the image*/
+
+  margin-bottom: 0px; /*to have the space under the image*/
+
+  margin-left: 0px; /*t have space between images designed to left may have to add right side*/
+  border: 15px solid #17202A;
 }
